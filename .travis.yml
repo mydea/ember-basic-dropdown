@@ -4,6 +4,10 @@ node_js:
   - "7"
 
 sudo: false
+addons:
+  apt:
+    packages:
+     - google-chrome-stable
 
 cache:
   yarn: true
